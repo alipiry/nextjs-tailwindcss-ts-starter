@@ -1,4 +1,4 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Typescript + ESLint + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
@@ -12,10 +12,10 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+````bash
+npx create-next-app --example https://github.com/alipiry/nextjs-tailwindcss-ts-starter nextjs-tailwindcss-ts-starter-app
 # or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+yarn create next-app --example https://github.com/alipiry/nextjs-tailwindcss-ts-starter nextjs-tailwindcss-ts-starter-app```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+````
