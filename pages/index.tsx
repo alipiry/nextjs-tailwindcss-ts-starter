@@ -28,7 +28,7 @@ export default function Home() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
             href="https://nextjs.org/docs"
           >
-            <h3 className="text-2xl font-bold">{'Documentation &rarr;'}</h3>
+            <h3 className="text-2xl font-bold">{'Documentation →'}</h3>
             <p className="mt-4 text-xl">
               {'Find in-depth information about Next.js features and API.'}
             </p>
@@ -38,7 +38,7 @@ export default function Home() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
             href="https://nextjs.org/learn"
           >
-            <h3 className="text-2xl font-bold">{'Learn &rarr;'}</h3>
+            <h3 className="text-2xl font-bold">{'Learn →'}</h3>
             <p className="mt-4 text-xl">
               {'Learn about Next.js in an interactive course with quizzes!'}
             </p>
@@ -48,7 +48,7 @@ export default function Home() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
             href="https://github.com/vercel/next.js/tree/master/examples"
           >
-            <h3 className="text-2xl font-bold">{'Examples &rarr;'}</h3>
+            <h3 className="text-2xl font-bold">{'Examples →'}</h3>
             <p className="mt-4 text-xl">
               {'Discover and deploy boilerplate example Next.js projects.'}
             </p>
@@ -58,7 +58,7 @@ export default function Home() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           >
-            <h3 className="text-2xl font-bold">{'Deploy &rarr;'}</h3>
+            <h3 className="text-2xl font-bold">{'Deploy →'}</h3>
             <p className="mt-4 text-xl">
               {
                 'Instantly deploy your Next.js site to a public URL with Vercel.'
