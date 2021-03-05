@@ -3,7 +3,6 @@
   "description": "A simple typescript starter to get up and develop quickly with NextJS",
   "version": "1.0.0",
   "author": "Ali Piry <alipiry@disroot.org>",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
