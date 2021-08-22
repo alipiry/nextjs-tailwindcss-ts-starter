@@ -1,5 +1,7 @@
 # Next.js + Typescript + ESLint + Tailwind CSS Example
 
+[![build](https://github.com/alipiry/nextjs-tailwindcss-ts-starter/actions/workflows/main.yml/badge.svg)](https://github.com/alipiry/nextjs-tailwindcss-ts-starter/actions/workflows/main.yml)
+
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 ## Deploy your own
