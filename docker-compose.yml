@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  starter:
+    image: ghcr.io/alipiry/nextjs-tailwindcss-ts-starter:latest
+    restart: always
+    expose:
+      - 3000
+    ports:
+      - "127.0.0.1:3000:3000"
