@@ -1,0 +1,25 @@
+name: build
+
+on:
+  push:
+    tags: [ 'v*.*.*' ]
+
+jobs:
+  docker-build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and Push Docker Image
+        run: |
+          export REGISTRY=ghcr.io
+          export GITHUB_IMAGE=$REGISTRY/$GITHUB_REPOSITORY
+          docker build -t $GITHUB_IMAGE .
+          echo "Pushing Image to GitHub Container Registry"
+          docker push $GITHUB_IMAGE
