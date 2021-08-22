@@ -1,7 +1,7 @@
 {
   "name": "nextjs-tailwindcss-ts-starter",
   "description": "A simple typescript starter to get up and develop quickly with NextJS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Ali Piry <alipiry@disroot.org>",
   "scripts": {
     "dev": "next dev",
