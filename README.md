@@ -1,4 +1,4 @@
-# Next.js + Typescript + ESLint + Tailwind CSS Example
+# Next.js + Typescript + ESLint + Husky + Tailwind CSS Example
 
 [![build](https://github.com/alipiry/nextjs-tailwindcss-ts-starter/actions/workflows/main.yml/badge.svg)](https://github.com/alipiry/nextjs-tailwindcss-ts-starter/actions/workflows/main.yml)
 
@@ -18,6 +18,11 @@ Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packag
 npx create-next-app --example https://github.com/alipiry/nextjs-tailwindcss-ts-starter nextjs-tailwindcss-ts-starter-app
 # or
 yarn create next-app --example https://github.com/alipiry/nextjs-tailwindcss-ts-starter nextjs-tailwindcss-ts-starter-app
+```
+## Setup husky
+```bash
+cd nextjs-tailwindcss-ts-starter-app
+yarn husky install
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
